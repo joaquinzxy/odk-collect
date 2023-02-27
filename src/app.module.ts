@@ -4,7 +4,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [FormModule,
-    MongooseModule.forRoot('mongo "mongodb://mongo:ZFFiJv2xUf8AM7RN3Fu0@containers-us-west-135.railway.app:7376"')
+    MongooseModule.forRoot("mongodb://mongo:ZFFiJv2xUf8AM7RN3Fu0@containers-us-west-135.railway.app:7376")
   ],
   controllers: [],
   providers: [],
